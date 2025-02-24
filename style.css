@@ -1,0 +1,12 @@
+span {
+    color: red;
+}
+.blockSpan {
+    display: inline;
+}
+a {
+    /* Строке нельзя задать параметры размера. Только блоку */
+    display: inline-block;
+    width: 500px;
+    /* display: inline-block; */
+}
